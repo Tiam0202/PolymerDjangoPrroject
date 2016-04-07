@@ -1,0 +1,27 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="has-whitespace">
+  <template> <div>A</div> <div>B</div> </template>
+  <script>
+    Polymer({
+      is: 'has-whitespace',
+      ready: function() {
+        console.log(Polymer.dom(this.root).childNodes.length); // 5
+      }
+    });
+  </script>
+</dom-module>
+
+<dom-module id="no-whitespace">
+  <template strip-whitespace>
+    <div>A</div>
+    <div>B</div>
+  </template>
+  <script>
+    Polymer({
+      is: 'no-whitespace',
+      ready: function() {
+        console.log(Polymer.dom(this.root).childNodes.length); // 2
+      }
+    });
+  </script>
+</dom-module>

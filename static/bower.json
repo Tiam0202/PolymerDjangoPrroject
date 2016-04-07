@@ -1,0 +1,12 @@
+{
+  "name": "PapersStatic",
+  "private": true,
+  "authors": [
+    "tiam0202 <tiam0202@github.com>"
+  ],
+  "description": "Start for django and Polymer development",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}

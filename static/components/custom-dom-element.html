@@ -1,0 +1,16 @@
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="custom-dom-element">
+  <template>
+    Hello World from <span id="name"></span>!
+  </template>
+  <script>
+    p = Polymer({
+      is: 'custom-dom-element',
+      ready: function() {
+        this.$.name.textContent = this.tagName;
+      }
+    })
+    </script>
+</dom-module>

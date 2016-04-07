@@ -1,0 +1,15 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="simple-content">
+  <template>
+    <content id="myContent"></content>
+  </template>
+  <script>
+    Polymer({
+      is: 'simple-content',
+      ready: function() {
+        var distributed = this.getContentChildren('#myContent');
+        console.log(distributed.length);
+      }
+    });
+  </script>
+</dom-module>

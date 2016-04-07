@@ -1,0 +1,13 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<dom-module id="proto-element">
+</dom-module>
+<script>
+  // register a new element called proto-element
+  var p = Polymer({
+    is: "proto-element",
+    // add a callback to the element's prototype
+    ready: function() {
+      this.textContent = "Hello Polymer!"
+    }
+  });
+</script>

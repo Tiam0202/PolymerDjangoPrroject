@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="0373701f-43fa-48a5-8ac9-137d9ac625d6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>imanixman</user-name>
+      <schema-pattern>imanixmandb.pg_catalog imanixmandb.public</schema-pattern>
+      <default-schemas>imanixmandb.public</default-schemas>
+    </data-source>
+  </component>
+</project>
